@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "cd app/static && npm run production"
+    "build": "cd app/static && npm i && npm run production"
   }
 }
