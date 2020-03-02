@@ -1,0 +1,16 @@
+{
+  "name": "patrick-vogel",
+  "version": "1.0.0",
+  "description": "Frontend for Patrick Vogel",
+  "private": true,
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o ../backend/app/static/css"
+  },
+  "author": "Patrick Vogel",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

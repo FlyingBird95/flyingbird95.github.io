@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% from "functions.html" import render_field %}
+{% block content %}
+    <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+            <div class="form-wrap col-md-5">
+                <form action="{{ url_for('user.login') }}" method="post" class="p-5 bg-light">
+                    <h3 class="pt-5">Login</h3>
+                    <div class="text">{% trans %}If you don't have an account, then you can{% endtrans %} <a href="#">
+                        {% trans %}register one here{% endtrans %}</a>.
+                    </div>
+                    {{ form.csrf_token }}
+                    {{ render_field(form.email) }}
+                    {{ render_field(form.password) }}
+                        <div class="form-inline">
+                            {{ form.submit(class_="btn py-3 px-4 btn-primary") }}
+                            <a href="#" style="margin: 0 0 0 auto;">{% trans %}Forgot you password?{% endtrans %}</a>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

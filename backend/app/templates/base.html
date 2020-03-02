@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Patrick Vogel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/open-iconic-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="{{ url_for('main.index') }}"><span>P</span>atrick Vogel</a>
+        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+                data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> {{ _('Menu') }}
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav nav ml-auto">
+                <li class="nav-item"><a href="{{ url_for('main.index') }}#home"
+                                        class="nav-link"><span>{{ _('Home') }}</span></a></li>
+                <li class="nav-item"><a href="#about" class="nav-link"><span>{{ _('About') }}</span></a></li>
+                <li class="nav-item"><a href="#resume" class="nav-link"><span>{{ _('Resume') }}</span></a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link"><span>{{ _('Projects') }}</span></a></li>
+                <li class="nav-item"><a href="{{ url_for('blog.index') }}"
+                                        class="nav-link"><span>{{ _('My Blog') }}</span></a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link"><span>{{ _('Contact') }}</span></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="true" aria-expanded="false">
+                        <img src="{{ url_for('static', filename=AVAILABLE_LANGUAGES.get(session['language']).filename) }}"
+                             class="img-language">
+                    </a>
+                    <div class="dropdown-menu">
+                        {% for code, language in AVAILABLE_LANGUAGES.items() %}
+                            <a class="dropdown-item" href="{{ url_for('main.set_language', language_code=code) }}">
+                                <img src="{{ url_for('static', filename=language.filename) }}"
+                                     class="img-language"> {{ language.name }}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <div class="container" style="padding-top: 70px;">
+            <div class="row no-gutters slider-text justify-content-center align-items-center">
+                <div class="col-md-8">
+                {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endwith %}
+{% block content %}{% endblock %}
+<footer class="ftco-footer ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">{{ _('Links') }}</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ url_for('main.index') }}#home"><span
+                                class="icon-long-arrow-right mr-2"></span>{{ _('Home') }}</a></li>
+                        <li><a href="{{ url_for('main.index') }}#about"><span
+                                class="icon-long-arrow-right mr-2"></span>{{ _('About') }}</a></li>
+                        <li><a href="{{ url_for('main.index') }}#resume"><span
+                                class="icon-long-arrow-right mr-2"></span>{{ _('Resume') }}</a></li>
+                        <li><a href="{{ url_for('main.index') }}#projects"><span
+                                class="icon-long-arrow-right mr-2"></span>{{ _('Projects') }}</a></li>
+                        <li><a href="{{ url_for('main.index') }}#contact"><span
+                                class="icon-long-arrow-right mr-2"></span>{{ _('Contact') }}</a></li>
+                        <li><a href="{{ url_for('user.login') }}"><span
+                                class="icon-long-arrow-right mr-2"></span>{{ _('Login') }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">{{ _('About') }}</h2>
+                    <p>{% trans %}This website is designed for engineering purposes. I use it to develop my
+                        programming skills and to learn new technologies. If you are interested into the source code,
+                        take a look <a href="https://github.com/flyingbird95/personal-site">here</a>.{% endtrans %}</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <li class="ftco-animate"><a href="https://www.linkedin.com/in/patrick-vogel-469704144/"><span
+                                class="icon-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="https://github.com/FlyingBird95"><span
+                                class="icon-github"></span></a></li>
+                        <li class="ftco-animate"><a href="mailto:patrickvogel@live.nl"><span
+                                class="icon-mail_outline"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">{{ _('Disclaimer') }}</h2>
+                    <p>{{ _('Copyright') }} &copy;
+                        <script>document.write(new Date().getFullYear());</script>
+                    </p>
+                    <p>Created by Patrick Vogel</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"/>
+    </svg>
+</div>
+
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/aos.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.animateNumber.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scrollax.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

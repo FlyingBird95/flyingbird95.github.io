@@ -1,0 +1,637 @@
+# Dutch translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-02-10 21:56+0100\n"
+"PO-Revision-Date: 2020-02-10 21:58+0100\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
+
+#: config.py:9
+msgid "English"
+msgstr "Engels"
+
+#: config.py:10
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: app/service/modules/main/forms.py:8
+msgid "Your name"
+msgstr "Jouw naam"
+
+#: app/service/modules/main/forms.py:9 app/service/modules/user/forms.py:8
+msgid "Your email"
+msgstr "Jouw email"
+
+#: app/service/modules/main/forms.py:10
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: app/service/modules/main/forms.py:11
+msgid "Your message"
+msgstr "Jouw bericht"
+
+#: app/service/modules/main/forms.py:12
+msgid "Send message"
+msgstr "Verstuur bericht"
+
+#: app/service/modules/main/views.py:23
+msgid "Thanks for contacting me"
+msgstr "Bedankt voor het contact"
+
+#: app/service/modules/main/views.py:25
+msgid "There are some errors. Please fix them below."
+msgstr "Er zijn een aantal fouter. Corrigeer ze hieronder."
+
+#: app/service/modules/user/forms.py:9
+msgid "Your password"
+msgstr "Jouw wachtwoord"
+
+#: app/service/modules/user/forms.py:10 app/templates/base.html:97
+msgid "Login"
+msgstr "Login"
+
+#: app/templates/admin.html:8
+msgid "If you don't have an account, then you can"
+msgstr "Als je geen account hebt, dan kun je"
+
+#: app/templates/admin.html:9
+msgid "register one here"
+msgstr "er hier een registeren"
+
+#: app/templates/admin.html:12
+msgid "Email"
+msgstr "Email"
+
+#: app/templates/admin.html:15
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: app/templates/admin.html:19
+msgid "Forgot you password?"
+msgstr "Wachtwoord vergeten?"
+
+#: app/templates/base.html:28
+msgid "Menu"
+msgstr "Menu"
+
+#: app/templates/base.html:34 app/templates/base.html:87
+msgid "Home"
+msgstr "Home"
+
+#: app/templates/base.html:35 app/templates/base.html:89
+#: app/templates/base.html:103 app/templates/index.html:40
+msgid "About"
+msgstr "Over mij"
+
+#: app/templates/base.html:36 app/templates/base.html:91
+msgid "Resume"
+msgstr "Curriculum Vitae"
+
+#: app/templates/base.html:37 app/templates/base.html:93
+#: app/templates/index.html:410
+msgid "Projects"
+msgstr "Projecten"
+
+#: app/templates/base.html:39 app/templates/index.html:552
+msgid "My Blog"
+msgstr "Mijn Blog"
+
+#: app/templates/base.html:40 app/templates/base.html:95
+#: app/templates/index.html:638
+msgid "Contact"
+msgstr "Contact"
+
+#: app/templates/base.html:84
+msgid "Links"
+msgstr "Links"
+
+#: app/templates/base.html:104
+msgid ""
+"This website is designed for engineering purposes. I use it to develop "
+"my programming skills and to learn new technologies. If you are "
+"interested into the source code, take a look"
+msgstr ""
+"Deze website is opgericht voor ontwikkelings doeleinden. Ik gebruik het "
+"om mijn eigen vaardigheden en programmeer skills te verbeteren, en "
+"nieuwe technologieën te leren. Mocht je geïnteresseerd zijn in de bron "
+"code, neem dan een kijkje"
+
+#: app/templates/base.html:107
+msgid "here"
+msgstr "hier"
+
+#: app/templates/base.html:120
+msgid "Disclaimer"
+msgstr "Disclaimer"
+
+#: app/templates/base.html:121
+msgid "Copyright"
+msgstr "Copyright"
+
+#: app/templates/index.html:10
+msgid "Hey! I am"
+msgstr "Hoi! Ik ben"
+
+#: app/templates/index.html:12
+msgid "I'm a"
+msgstr "Ik ben een"
+
+#: app/templates/index.html:13 app/templates/index.html:184
+msgid "Software Engineer"
+msgstr "Software Ontwikkelaar"
+
+#: app/templates/index.html:13
+msgid "Basketball Player"
+msgstr "Basketball Speler"
+
+#: app/templates/index.html:13
+msgid "Software Developer"
+msgstr "Software Ontwikkelaar"
+
+#: app/templates/index.html:13
+msgid "Basketball Coach"
+msgstr "Basketball Coach"
+
+#: app/templates/index.html:41
+msgid "About Me"
+msgstr "Over mij"
+
+#: app/templates/index.html:42
+msgid "I am a professional Software Engineer working at"
+msgstr ""
+"Ik ben een professionele Software Ontwikkelaar, die momenteel werkt bij"
+
+#: app/templates/index.html:44
+msgid "in Groningen"
+msgstr "in Groningen"
+
+#: app/templates/index.html:45
+msgid ""
+"I'm specialized in Python web-development, and an expert in Django and "
+"Flask, for which I've developed the"
+msgstr ""
+"Ik ben gespecialiseerd in Python web-ontwikkeling, en een expert in "
+"Django en Flask. Hiervoor ontwikkelde ik het"
+
+#: app/templates/index.html:49
+msgid ""
+"Currently, I'm still the maintainer of this repository, and continuously "
+"adding new features."
+msgstr ""
+"Momenteel ben ik nog steeds de persoon die het project onderhoudt, en "
+"nieuwe functionaliteit toevoeg."
+
+#: app/templates/index.html:54
+msgid "October 14, 1995"
+msgstr "14 oktober 1995"
+
+#: app/templates/index.html:65
+msgid "Download Resume"
+msgstr "Download CV"
+
+#: app/templates/index.html:106 app/templates/index.html:115
+msgid "Education"
+msgstr "Onderwijs"
+
+#: app/templates/index.html:107
+msgid "Experience"
+msgstr "Ervaring"
+
+#: app/templates/index.html:108 app/templates/index.html:196
+msgid "Skills"
+msgstr "Vaardigheden"
+
+#: app/templates/index.html:109 app/templates/index.html:310
+msgid "Research"
+msgstr "Onderzoek"
+
+#: app/templates/index.html:122
+msgid "Pre-university education"
+msgstr "Voortgezet wetenschappelijk onderwijs"
+
+#: app/templates/index.html:123
+msgid "Kamerlingh Onnes College"
+msgstr "Kamerlingh Onnes College"
+
+#: app/templates/index.html:124
+msgid ""
+"The school is located in Groningen. It is named after Heike Kamerlingh "
+"Onnes, who was a Dutch physicist and Nobel laureate. The school opened "
+"on September 26, 1864."
+msgstr ""
+"De school bevindt zich in Groningen. Het is vernoemd naar Heike "
+"Kamerlingh Onnes, een Nederlandse natuurkundige en nobel prijswinnaar. "
+"De school is geopend op 26 september, 1864."
+
+#: app/templates/index.html:135
+msgid "Bachelor Computing Science"
+msgstr "Bachelor Informatica"
+
+#: app/templates/index.html:136 app/templates/index.html:172
+msgid "University of Groningen"
+msgstr "Rijksuniversiteit van Groningen"
+
+#: app/templates/index.html:137
+msgid ""
+"The University of Groningen was founded in 1614 and was was ranked 59th "
+"in the world, according to"
+msgstr ""
+"De Universiteit van Groningen is opgericht in 1614 en was de 59e beste "
+"universiteit van de wereld in 2017, volgens"
+
+#: app/templates/index.html:140
+msgid "Academic Ranking of World Universities"
+msgstr "Academische ranking van alle universiteiten"
+
+#: app/templates/index.html:141
+msgid "in 2017"
+msgstr "in 2017"
+
+#: app/templates/index.html:142
+msgid "I completed my Bachelors with a thesis about"
+msgstr "I heb mijn Bachelor afgerond met een scriptie over"
+
+#: app/templates/index.html:143
+msgid "Automatic Monitoring Python Web Services"
+msgstr "Automatische monitoring van Python Web Services"
+
+#: app/templates/index.html:152
+msgid "Master Computing Science"
+msgstr "Master informatica"
+
+#: app/templates/index.html:153
+msgid ""
+"Track: Software Engineering and Distributed Systems at the University of "
+"Groningen"
+msgstr ""
+"Track: Software Engineering en Gedistribueerde systemen aan de "
+"Universiteit van Groningen"
+
+#: app/templates/index.html:155
+msgid ""
+"After I completed my Bachelors with an average grade of 8.1 (on a scale "
+"of 1-10) and a thesis grade of 9.5, I continued studying by doing my "
+"Masters at the University of Groningen. I've finished my Masters with a "
+"grade of 7.7 and a thesis about"
+msgstr ""
+"Nadat ik mijn Bachelor voltooid heb, met een gemiddeld cijfer van een "
+"8,1 (op een schaal van 1-10) en een scriptie met een 9,5 heb afgrond, "
+"ben ik verder gegaan met studeren door het doen van mijn Master aan de "
+"Rijksuniversiteit van Groningen. Ik heb mijn Master afgerond met een "
+"cijfer van een 7,7 en een scriptie over"
+
+#: app/templates/index.html:158
+msgid "Cloud Computing Monitoring"
+msgstr "Cloud Computing Monitoring"
+
+#: app/templates/index.html:171
+msgid "Teaching Assistant for Software Developer"
+msgstr "Onderwijsassistent voor Software Ontwerp"
+
+#: app/templates/index.html:173
+msgid ""
+"I have led a team of 8 people during a Software Engineering course, for "
+"a period of half a year. The work consisted of supervising, and helping "
+"them during the process of developing a large software project."
+msgstr ""
+"Ik heb een team van 8 mensen geleid tijdens een vak over Software "
+"Engineering, voor de duur van een half jaar. De taken bestonden uit het "
+"begeleiden, en ondersteunen van het ontwikkelen van grootschalige "
+"software project."
+
+#: app/templates/index.html:186
+msgid ""
+"Currently, I'm a Software Engineer at See Tickets Benelux. They are one "
+"of the leaders in the global ticketing market, with a strong presence in "
+"the United States and Europe. My work consists of maintaining the Python "
+"Platform. This platform uses frameworks like Django, Flask and "
+"SQLAlchemy. The focus of their platform is code quality, which is "
+"supported by exhausting testing implemented by specialized test-"
+"frameworks."
+msgstr ""
+"Momenteel ben ik een Software Ontwikkelaar bij See Tickets Benelux. Zij "
+"zijn een van de werreldleiders op het gebied van online kaart verkoop, "
+"met een sterke aanwezigheid in Amerika en Europa. Mijn dagelijkse taken "
+"bestaan uit het onderhouden van het Python Platform. Dit platform "
+"gebruikt technologieën zoals Django, Flask en SQLAlchemy. Ze richten "
+"zich op code van goede kwaliteit, wat geholpen wordt door uitgebreide "
+"testen, die gemaakt zijn in gespecialiseerde test-frameworks."
+
+#: app/templates/index.html:320 app/templates/index.html:346
+#: app/templates/index.html:382
+msgid "Abstract"
+msgstr "Abstract"
+
+#: app/templates/index.html:321
+msgid ""
+"Tens of thousands of web applications are written in Flask, a Python-"
+"based web framework. Despite a rich ecosystem of extensions, there is "
+"none that supports the developer in gaining insight into the evolving "
+"performance of their service. In this paper, we introduce Flask "
+"Dashboard, a library that addresses this problem. We present the ease "
+"with which the library can be integrated in an already existing web "
+"application, discuss some of the visualization perspectives that the "
+"library provides and point to some future challenges for similar "
+"libraries."
+msgstr ""
+"Tienduizenden webapplicaties zijn geschreven met Flask, een op Python "
+"gebaseerd web framework. Ondanks zijn rijke ecosysteem vol met "
+"uitbreidingen, is er geen een dat de ontwikkelaar ondersteund in het "
+"inzichtelijk maken van de veranderde prestaties van zijn gebruik. In dit "
+"artikel wordt de Flask Dashboard geïntroduceerd, dat ontworpen is om dit "
+"probleem te addresseren. We presenteren het gemak waarmee het systeem "
+"gebruikt kan worden in een bestaande web applicatie. Daarnaast "
+"discusseren we een aantal visuale perspectieven, die de het systeem "
+"mogelijk maakt en wijzen we een aantal verbeterpunten aan voor "
+"vergelijkbare systemen."
+
+#: app/templates/index.html:328
+msgid "Authors"
+msgstr "Auteurs"
+
+#: app/templates/index.html:330
+msgid "Conference Workshop Paper"
+msgstr "Conference Workshop Paper"
+
+#: app/templates/index.html:333 app/templates/index.html:370
+#: app/templates/index.html:397
+msgid "Download here"
+msgstr "Download hier"
+
+#: app/templates/index.html:343
+msgid "Bachelor's Thesis"
+msgstr "Bachelor scriptie"
+
+#: app/templates/index.html:344 app/templates/index.html:380
+msgid "A Dashboard for Automatic Monitoring Python Web Services"
+msgstr ""
+"Een dashboard voor het automatisch monitoring van Python web services"
+
+#: app/templates/index.html:347
+msgid ""
+"This bachelor thesis describes the problem of monitoring the performance "
+"of Flask-based Python web-services. For the web developer that wants to "
+"monitor the performance for their web-services, a solution is presented. "
+"The solution consists of an automatic monitoring dashboard, that can be "
+"installed in any existing web-service with Python and Flask. After the "
+"installation (installation requires 2 lines of code) an automatic "
+"monitoring service is ready to use. With several lines of extra "
+"configuration, the following features are supported: - Automatic version "
+"detection. The monitoring tool detects the active version of this VCS "
+"and combines this with the collected data. - Comparison of execution "
+"times across different users. Which users perform better or worse on "
+"certain versions of the system and how can this be improved? The "
+"monitoring dashboard creates graphs automatically, wherein it is easy to "
+"spot differences in execution times. - Automatic outlier detection. "
+"Whenever the execution time is larger than usual -- an outlier --, the "
+"monitoring tool collects extra information about the requested data, "
+"such as the stack-trace of active threads, and CPU- and memory usage of "
+"the system. In order to reduce the overhead of the dashboard, logging "
+"extra information is only done for potential outliers. Moreover, this "
+"thesis describes the design of the monitoring tool. After the "
+"development of the dashboard, it is deployed for a case study to "
+"validate its usefulness. The collected results have been used to analyze "
+"and improve the performance of that case study."
+msgstr ""
+"Deze Bachelor thesis beschrijft het probleem dat onstaat bij het "
+"monitoren van de prestaties van op Flask-gebaseerde Python web-services. "
+"Een oplossing wordt gepresenteerd voor de ontwikkelaar die graag zijn "
+"prestaties wil monitoring. Deze oplossing bestaat uit een "
+"geautomatiseerd monitorings-dashboard, dat gemakkelijk geinstalleerd kan "
+"worden in elke bestaande web-service met Python en Flask. Na de "
+"installatie (de installatie zelf neemt maar 2 regels code in beslag), is "
+"de geautomatiseerde monitoring service klaar voor gebruikt. Met een "
+"aantal regels code meer voor de configuratie, kunnen de volgende "
+"kenmerken worden gebruikt: - Automatische versie detectie. Het "
+"monitorings systeem detecteert de huidige versie vanuit zijn VCS "
+"(Version Control System) en combineert deze informatie met de verzamelde "
+"data. - Het vergelijken van de uitvoeringstijden over meerdere "
+"gebruikers. Welke gebruikers laten een betere, of slechtere, prestatie "
+"zien over de verschillende versies van het systeem, en hoe kan dit "
+"verbeterd worden? Het monitorings dashboard genereert een aantal "
+"grafieken automatisch, waar de verschillen makkelijk zichtbaar worden. - "
+"Automatische uitschieter detectie. Wanneer de uitvoeringstijd "
+"significant groter is dan gebruiker — dit wordt een uitschieter genoemd "
+"— zal de monitoring applicatie zelf extra informatie verzamelen over de "
+"opgevraagde data, zoals de lijn tracering van de actieve threads, CPU- "
+"en geheugen gebruik van het systeem. Om de overhead van het dashboard te "
+"verminderen, wordt het verzamelen van deze informatie alleen gedaan voor "
+"potentiële uitschieters. Daarnaast, beschrijft deze thesis het ontwerp "
+"van het monitoring systeem. Na de implementatie fase van het programma, "
+"is het uitgevoerd in een case studie, waardoor zijn bruikbaarheid "
+"gevalideerd kan worden. De verzamelde resultaten worden gebruikt om het "
+"systeem verder te analyseren en te verbeteren waar nodig."
+
+#: app/templates/index.html:367 app/templates/index.html:394
+msgid "Author"
+msgstr "Auteur"
+
+#: app/templates/index.html:379
+msgid "Master's Thesis"
+msgstr "Master scriptie"
+
+#: app/templates/index.html:383
+msgid ""
+"A key feature of Cloud Computing is to pay proportionally for requested "
+"resources. Monitoring is thus essential to finding out the actual "
+"resource usage of components. However, existing Cloud Monitoring "
+"Solutions are not capable of estimating the operational cost. As such, "
+"Cloud Consumers have to rely to the billing provided by the Cloud "
+"Provider instead, that is, only deal with cost after the fact. Our "
+"research proposes a model which monitors the deployment cost of a "
+"containerized Cloud-based Application while it is running, and estimates "
+"the waste caused by unused resources provisioned to the application. We "
+"introduce an efficient and effective Cloud Monitoring Solution using "
+"this model towards allowing for cost optimization on deployment level. "
+"We verify this solution by deploying it on an industrial Cloud System."
+msgstr ""
+"Een belangrijk kenmerk van Cloud Computing is evenredig te betalen voor "
+"de gebruikte middelen. Het monitoren van deze systemen is daarom "
+"noodzakelijk om het huidige gebruikt van de componenten te bepalen. "
+"Maar, bestaande monitoring systemen voor Cloud Computing zijn vaak niet "
+"in staat om dit operationele kosten in te schatten. Als gevolg hiervan "
+"moeten gebruikers van de Cloud vertrouwen op de berekende kosten door de "
+"Cloud leverancier. Dit kan pas achteraf bepaald worden. Ons onderzoek "
+"richt zich op het ontwikkelen van een model waarin toezicht gehouden "
+"wordt op de kosten van een gecontaineriseerd, op de Cloud gebaseerde "
+"applicatie terwijl het uitvoerend is. Hierdoor ontstaat een schatting "
+"van de kosten die weg gegooid worden door niet gebruikte componenten. We "
+"introduceren een efficiënt en effectieve oplossing door gebruik te maken "
+"van het model dat zicht richt op het berekenen van deze kosten tijdens "
+"het uitvoeren van het systeem. De oplossing wordt getest in een "
+"bestaande Cloud applicatie."
+
+#: app/templates/index.html:411
+msgid "My Project"
+msgstr "Mijn Project"
+
+#: app/templates/index.html:412
+msgid ""
+"In the past years, I've developed several small projects. However, only "
+"the Flask-Monitoring Dashboard is worth mentioning. It is an extension "
+"for Flask applications that offers four main functionalities with little "
+"effort from the Flask developer:"
+msgstr ""
+"In de afgelopen jaren heb ik een aantal kleine projecten ontworpen. "
+"Alleen de Flask-Monitoring Dashboard is waard om te beschrijven. Het is "
+"een uitbreiding voor Flask applicaties that 4 grote functionaliteiten "
+"biedt voor weinig moeite van de Flask ontwikkelaar:"
+
+#: app/templates/index.html:416
+msgid "Monitor the performance and utilization:"
+msgstr "Monitor de prestatie en gebruik:"
+
+#: app/templates/index.html:417
+msgid ""
+"The Dashboard allows you to see which endpoints process a lot of "
+"requests and how fast. Additionally, it provides information about the "
+"evolving performance of an endpoint throughout different versions if "
+"you're using git."
+msgstr ""
+"Het dashboard staat je toe om te zien welke endpoints veel requests "
+"verwerken en hoe snel ze dit doen. Daarnaast, biedt het informatie over "
+"de veranderende prestaties van een endpoint door verschillende versies "
+"als je git gebruikt."
+
+#: app/templates/index.html:421
+msgid "Profile requests and endpoints:"
+msgstr "Profileren van requests en endpoints:"
+
+#: app/templates/index.html:422
+msgid ""
+"The execution path of every request is tracked and stored into the "
+"database. This allows you to gain insight over which functions in your "
+"code take the most time to execute. Since all requests for an endpoint "
+"are also merged together, the Dashboard provides an overview of which "
+"functions are used in which endpoint."
+msgstr ""
+"De uitvoeringscode van elke request wordt opgeslagen in de database. Dit "
+"geeft inzicht over welke functies in de code de meeste tijd kosten om "
+"uit te voeren. Doordat alle requests voor een endpoint ook samengevoegd "
+"worden, krijgt het dashboard een overzicht van welke functies veel "
+"gebruikt worden in welke endpoint."
+
+#: app/templates/index.html:426
+msgid "Collect extra information about outliers:"
+msgstr "Verzamel meer informatie over outliers:"
+
+#: app/templates/index.html:427
+msgid ""
+"Outliers are requests that take much longer to process than regular "
+"requests. The Dashboard automatically detects that a request is an "
+"outlier and stores extra information about it (stack trace, request "
+"values, Request headers, Request environment)."
+msgstr ""
+"Outliers zijn requests die veel langer duren om te verwerken dan "
+"gebruikelijke requests. Het dashboard detecteert automatisch of een "
+"request een outlier en verzameld er dan meer informatie over (stack "
+"trace, request waardes, request headers, request omgeving)."
+
+#: app/templates/index.html:431
+msgid "Collect additional information about your Flask-application:"
+msgstr "Verzamel extra informatie over je Flask-applicatie:"
+
+#: app/templates/index.html:432
+msgid ""
+"Suppose you have an User-table and you want to know how many users are "
+"registered on your Flask-application. Then, you can run the following "
+"query:"
+msgstr ""
+"Stel dat je een User-tabel hebt en je wil weten hoeveel gebruikers zich "
+"registeren voor je Flask applicatie. Dan kan je de volgende query "
+"uitvoeren:"
+
+#: app/templates/index.html:435
+msgid ""
+"But this is just annoying to do regularly. Therefore, you can configure "
+"this in the Flask-MonitoringDashboard, which will provide you this "
+"information per day (or other time interval)."
+msgstr ""
+"Maar dit is juist vervelend om dit vaak te doen. Daarom, kan je dit "
+"configureren in de Flask-MonitoringDashboard, zodat dit de juiste "
+"informatie verzameld per dag (of per ander tijdsinterval)."
+
+#: app/templates/index.html:514
+msgid "Downloads"
+msgstr "Downloads"
+
+#: app/templates/index.html:522
+msgid "Stars on Github"
+msgstr "Sterren op Github"
+
+#: app/templates/index.html:530
+msgid "Downloads every day"
+msgstr "Downloads per dag"
+
+#: app/templates/index.html:538
+msgid "Commits"
+msgstr "Commits"
+
+#: app/templates/index.html:553
+msgid "My blog is still under development. Don't expect too much form it."
+msgstr "Mijn blog is nog onder ontwikkeling. Verwacht er niet te veel van."
+
+#: app/templates/index.html:623
+msgid "I'm"
+msgstr "Ik ben"
+
+#: app/templates/index.html:623
+msgid "available"
+msgstr "beschikbaar"
+
+#: app/templates/index.html:624
+msgid "for projects"
+msgstr "voor projecten"
+
+#: app/templates/index.html:625
+msgid ""
+"I will accept any project that seems interesting to me. Usually, I'll do "
+"it for free!"
+msgstr ""
+"Ik sta open voor elk project dat me interessant lijkt. Normaal gesproken "
+"doe ik het gratis!"
+
+#: app/templates/index.html:628
+msgid "Contact me"
+msgstr "Contacteer me"
+
+#: app/templates/index.html:639
+msgid "Contact Me"
+msgstr "Contacteer Me"
+
+#: app/templates/index.html:640
+msgid ""
+"You can reach me using one of the buttons below, or fill in the form "
+"below the buttons."
+msgstr ""
+"Je kan me bereiken door één van onderstaande knoppen, of het formulier "
+"daaronder in te vullen."
+
+#: app/templates/index.html:652
+msgid "Email Address"
+msgstr "Email-adres"
+
+#: app/templates/index.html:665
+msgid "See my LinkedIn profile"
+msgstr "Zie mijn LinkedIn profiel"
+
+#: app/templates/index.html:677
+msgid "See my Github profile"
+msgstr "Zie mijn Github pagina"
+
+#: app/templates/index.html:687
+msgid "Website"
+msgstr "Website"
