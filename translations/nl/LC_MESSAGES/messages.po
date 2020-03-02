@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-02-10 23:11+0100\n"
-"PO-Revision-Date: 2020-02-10 23:12+0100\n"
+"PO-Revision-Date: 2020-03-02 20:47+0100\n"
 "Last-Translator: \n"
 "Language: nl\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr "Bedankt voor het contact"
 
 #: app/service/modules/main/views.py:25
 msgid "There are some errors. Please fix them below."
-msgstr "Er zijn een aantal fouter. Corrigeer ze hieronder."
+msgstr "Er zijn een aantal fouten. Corrigeer ze hieronder."
 
 #: app/service/modules/user/forms.py:9
 msgid "Your password"
@@ -124,10 +124,10 @@ msgid ""
 "programming skills and to learn new technologies. If you are interested into "
 "the source code, take a look"
 msgstr ""
-"Deze website is opgericht voor ontwikkelings doeleinden. Ik gebruik het om "
-"mijn eigen vaardigheden en programmeer skills te verbeteren, en nieuwe "
-"technologieën te leren. Mocht je geïnteresseerd zijn in de bron code, neem "
-"dan een kijkje"
+"Deze website is opgericht voor ontwikkelingsdoeleinden. Ik gebruik het om "
+"mijn eigen vaardigheden en programmeer skills te verbeteren en nieuwe "
+"technologieën te leren. Mocht je geïnteresseerd zijn in de broncode, neem dan "
+"een kijkje"
 
 #: app/templates/base.html:107
 msgid "here"
@@ -159,7 +159,7 @@ msgstr "Software Ontwikkelaar"
 
 #: app/templates/index.html:13
 msgid "Basketball Player"
-msgstr "Basketball Speler"
+msgstr "Basketbal Speler"
 
 #: app/templates/index.html:13
 msgid "Software Developer"
@@ -167,7 +167,7 @@ msgstr "Software Ontwikkelaar"
 
 #: app/templates/index.html:13
 msgid "Basketball Coach"
-msgstr "Basketball Coach"
+msgstr "Basketbal Coach"
 
 #: app/templates/index.html:41
 msgid "About Me"
@@ -175,7 +175,7 @@ msgstr "Over mij"
 
 #: app/templates/index.html:42
 msgid "I am a professional Software Engineer working at"
-msgstr "Ik ben een professionele Software Ontwikkelaar, die momenteel werkt bij"
+msgstr "Ik ben een professionele Software Ontwikkelaar, werkzaam bij"
 
 #: app/templates/index.html:44
 msgid "in Groningen"
@@ -186,16 +186,16 @@ msgid ""
 "I'm specialized in Python web-development, and an expert in Django and Flask, "
 "for which I've developed the"
 msgstr ""
-"Ik ben gespecialiseerd in Python web-ontwikkeling, en een expert in Django en "
-"Flask. Hiervoor ontwikkelde ik het"
+"Ik ben gespecialiseerd in Python web-ontwikkeling. Ik ben een expert in "
+"Django en Flask. Hiervoor ontwikkelde ik het"
 
 #: app/templates/index.html:49
 msgid ""
 "Currently, I'm still the maintainer of this repository, and continuously "
 "adding new features."
 msgstr ""
-"Momenteel ben ik nog steeds de persoon die het project onderhoudt, en nieuwe "
-"functionaliteit toevoeg."
+"Momenteel ben ik nog steeds de persoon, die het project onderhoudt en nieuwe "
+"functionaliteit toevoegt."
 
 #: app/templates/index.html:54
 msgid "October 14, 1995"
@@ -252,8 +252,8 @@ msgid ""
 "The University of Groningen was founded in 1614 and was was ranked 59th in "
 "the world, according to"
 msgstr ""
-"De Universiteit van Groningen is opgericht in 1614 en was de 59e beste "
-"universiteit van de wereld in 2017, volgens"
+"De Rijksuniversiteit van Groningen is opgericht in 1614 en staat "
+"geclassificeerd als de 59e beste universiteit van de wereld (in 2017) volgens"
 
 #: app/templates/index.html:140
 msgid "Academic Ranking of World Universities"
@@ -269,11 +269,11 @@ msgstr "I heb mijn Bachelor afgerond met een scriptie over"
 
 #: app/templates/index.html:143
 msgid "Automatic Monitoring Python Web Services"
-msgstr "Automatische monitoring van Python Web Services"
+msgstr "Automatisch toezicht houden van Python Web Services"
 
 #: app/templates/index.html:152
 msgid "Master Computing Science"
-msgstr "Master informatica"
+msgstr "Master Informatica"
 
 #: app/templates/index.html:153
 msgid ""
@@ -310,10 +310,9 @@ msgid ""
 "period of half a year. The work consisted of supervising, and helping them "
 "during the process of developing a large software project."
 msgstr ""
-"Ik heb een team van 8 mensen geleid tijdens een vak over Software "
-"Engineering, voor de duur van een half jaar. De taken bestonden uit het "
-"begeleiden, en ondersteunen van het ontwikkelen van grootschalige software "
-"project."
+"Ik heb een team van 8 mensen tijdens een vak over Software Engineering "
+"begeleid, voor de duur van een half jaar. De taken bestonden uit het leiden "
+"en ondersteunen van het ontwikkelen van grootschalige software project."
 
 #: app/templates/index.html:186
 msgid ""
@@ -325,9 +324,9 @@ msgid ""
 "testing implemented by specialized test-frameworks."
 msgstr ""
 "Momenteel ben ik een Software Ontwikkelaar bij See Tickets Benelux. Zij zijn "
-"een van de werreldleiders op het gebied van online kaart verkoop, met een "
-"sterke aanwezigheid in Amerika en Europa. Mijn dagelijkse taken bestaan uit "
-"het onderhouden van het Python Platform. Dit platform gebruikt technologieën "
+"een van de grootste op het gebied van online kaart verkoop, met een sterke "
+"aanwezigheid in Amerika en Europa. Mijn dagelijkse taken bestaan uit het "
+"onderhouden van het Python Platform. Dit platform gebruikt technologieën "
 "zoals Django, Flask en SQLAlchemy. Ze richten zich op code van goede "
 "kwaliteit, wat geholpen wordt door uitgebreide testen, die gemaakt zijn in "
 "gespecialiseerde test-frameworks."
@@ -354,9 +353,9 @@ msgstr ""
 "de veranderde prestaties van zijn gebruik. In dit artikel wordt de Flask "
 "Dashboard geïntroduceerd, dat ontworpen is om dit probleem te addresseren. We "
 "presenteren het gemak waarmee het systeem gebruikt kan worden in een "
-"bestaande web applicatie. Daarnaast discusseren we een aantal visuale "
-"perspectieven, die de het systeem mogelijk maakt en wijzen we een aantal "
-"verbeterpunten aan voor vergelijkbare systemen."
+"bestaande web applicatie. Daarnaast discussiëren we een aantal visuale "
+"perspectieven, die mogelijk gemaakt worden door het systeem en wijzen we een "
+"aantal verbeterpunten aan voor vergelijkbare systemen."
 
 #: app/templates/index.html:328
 msgid "Authors"
@@ -373,7 +372,7 @@ msgstr "Download hier"
 
 #: app/templates/index.html:343
 msgid "Bachelor's Thesis"
-msgstr "Bachelor scriptie"
+msgstr "Bachelor Scriptie"
 
 #: app/templates/index.html:344 app/templates/index.html:380
 msgid "A Dashboard for Automatic Monitoring Python Web Services"
@@ -437,7 +436,7 @@ msgstr "Auteur"
 
 #: app/templates/index.html:379
 msgid "Master's Thesis"
-msgstr "Master scriptie"
+msgstr "Master Scriptie"
 
 #: app/templates/index.html:383
 msgid ""
