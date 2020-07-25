@@ -6,7 +6,8 @@ class Footer extends Component {
     if(this.props.data){
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
+      });
+      var year = new Date().getFullYear();
     }
 
     return (
@@ -19,7 +20,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2020 <a title="Patrick Vogel" href="http://www.patrickvogel.nl/">Patrick Vogel</a></li>
+              <li>&copy; Copyright {year} <a title="Patrick Vogel" href="http://www.patrickvogel.nl/">Patrick Vogel</a></li>
            </ul>
 
         </div>
