@@ -2,7 +2,7 @@
   "name": "patrick",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://flyingbird95.github.io/patrick",
+  "homepage": "http://flyingbird95.github.io",
   "dependencies": {
     "jquery": "^3.5.0",
     "react": "^16.2.0",
