@@ -1,9 +1,0 @@
-sqlalchemy
-click
-flask-babel
-flask
-flask_wtf
-wtforms
-sqlalchemy_i18n
-flask_sqlalchemy
-gunicorn
