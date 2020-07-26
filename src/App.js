@@ -15,21 +15,21 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            resumeData: {}
+            data: {}
         };
 
         ReactGA.initialize('UA-110570651-1');
         ReactGA.pageview(window.location.pathname);
     }
 
-    getResumeData() {
+    getData() {
         const load = document.getElementById('siteLoading')
         $.ajax({
-            url: window.location.pathname + 'resumeData.json',
+            url: window.location.pathname + 'data.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
-                this.setState({resumeData: data});
+                this.setState({data: data});
                 setTimeout(() => {
                     load.outerHTML = '';
                 }, 500)
@@ -41,20 +41,20 @@ class App extends Component {
     }
 
     componentDidMount() {
-        this.getResumeData();
+        this.getData();
     }
 
 
     render() {
         return (
             <div className="App">
-                <Header data={this.state.resumeData.main}/>
-                <About data={this.state.resumeData.main}/>
-                <Resume data={this.state.resumeData.resume}/>
-                <Portfolio data={this.state.resumeData.portfolio}/>
-                <Testimonials data={this.state.resumeData.testimonials}/>
-                <Contact data={this.state.resumeData.main}/>
-                <Footer data={this.state.resumeData.main}/>
+                <Header data={this.state.data.main}/>
+                <About data={this.state.data.main}/>
+                <Resume data={this.state.data.resume}/>
+                <Portfolio data={this.state.data.portfolio}/>
+                <Testimonials data={this.state.data.testimonials}/>
+                <Contact data={this.state.data.main}/>
+                <Footer data={this.state.data.main}/>
             </div>
         );
     }

@@ -2,15 +2,20 @@ import React, {Component} from 'react';
 
 class Header extends Component {
     render() {
+        let name, jobDescription, company, city, networks;
 
         if (this.props.data) {
-            var name = this.props.data.name;
-            var jobDescription = this.props.data.jobDescription;
-            var company = this.props.data.company;
-            var city = this.props.data.address.city;
-            var networks = this.props.data.social.map(function (network) {
-                return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-            })
+            name = this.props.data.name;
+            jobDescription = this.props.data.jobDescription;
+            company = this.props.data.company;
+            city = this.props.data.address.city;
+            networks = this.props.data.social.map(function (network) {
+                return (
+                    <li key={network.name}>
+                        <a href={network.url}><i className={network.className}></i></a>
+                    </li>
+                );
+            });
         }
 
         return (
@@ -33,7 +38,10 @@ class Header extends Component {
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm {name}</h1>
                         <h3>I am a professional <span>{jobDescription}</span> working at <span>{company}</span>
-                            in <span>{city}</span>. I'm specialized in <span>Python web-development</span>, and an expert in <span>Django and Flask</span>, for which I've developed the <span>Flask-Monitoring-Dashboard</span>. Currently, I'm still the maintainer of this repository, and continuously adding new features.</h3>
+                            in <span>{city}</span>. I'm specialized in <span>Python web-development</span>,
+                            and an expert in <span>Django and Flask</span>, for which I've developed the
+                            <span>Flask-Monitoring-Dashboard</span>. Currently, I'm still the maintainer of this
+                            repository, and continuously adding new features.</h3>
                         <hr/>
                         <ul className="social">
                             {networks}

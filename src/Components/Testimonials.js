@@ -2,16 +2,19 @@ import React, {Component} from 'react';
 
 class Testimonials extends Component {
     render() {
+        let testimonials;
 
         if (this.props.data) {
-            var testimonials = this.props.data.testimonials.map(function (testimonials) {
-                return <li key={testimonials.user}>
-                    <blockquote>
-                        <p>{testimonials.text}</p>
-                        <cite>{testimonials.user}</cite>
-                    </blockquote>
-                </li>
-            })
+            testimonials = this.props.data.testimonials.map(function (testimonials) {
+                return (
+                    <li key={testimonials.user}>
+                        <blockquote>
+                            <p>{testimonials.text}</p>
+                            <cite>{testimonials.user}</cite>
+                        </blockquote>
+                    </li>
+                );
+            });
         }
 
         return (

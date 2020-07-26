@@ -2,27 +2,26 @@ import React, {Component} from 'react';
 
 class About extends Component {
     render() {
+        let name, profilePic, resumeLink, bio, city, country, phone, email;
 
         if (this.props.data) {
-            var name = this.props.data.name;
-            var profilepic = "images/" + this.props.data.image;
-            var bio = this.props.data.bio;
-            var city = this.props.data.address.city;
-            var country = this.props.data.address.country;
-            var phone = this.props.data.phone;
-            var email = this.props.data.email;
+            name = this.props.data.name;
+            profilePic = "images/" + this.props.data.image;
+            resumeLink = this.props.data.resumeLink;
+            bio = this.props.data.bio;
+            city = this.props.data.address.city;
+            country = this.props.data.address.country;
+            phone = this.props.data.phone;
+            email = this.props.data.email;
         }
 
         return (
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src={profilepic} alt="Patrick Vogel Profile Pic"/>
+                        <img className="profile-pic" src={profilePic} alt="Patrick Vogel Profile Pic"/>
                     </div>
                     <div className="nine columns main-col">
-                        <h2>About Me</h2>
-
-                        <p>{bio}</p>
                         <div className="row">
                             <div className="columns contact-details">
                                 <h2>Contact Details</h2>
@@ -36,7 +35,7 @@ class About extends Component {
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href="http://www.patrickvogel.nl/resume.pdf" className="button" target="_blank">
+                                    <a href={resumeLink} className="button" target="_blank">
                                         <i className="fa fa-download"></i>Download Resume
                                     </a>
                                 </p>
@@ -44,7 +43,6 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-
             </section>
         );
     }

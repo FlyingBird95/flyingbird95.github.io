@@ -1,9 +1,8 @@
-# Patrick Vogel personal website
-### <a href="http://patrickvogel.nl/">Check It Out Here</a> 
+# My personal website
+### <a href="https://flyingbird95.github.io/patrick/">Check It Out Here</a> 
 
-## Description
-This is my personal resume website built with ReactJS. I am using my own React resume website template that can be
- found <a href="https://github.com/flyingbird95/patrick">HERE.</a>
+## Screenshot
+![ReactJS Resume Website](public/images/portfolio/resume-website.png?raw=true "ReactJS Resume Website")
 
 ## Deploy
 If you want to run the website locally:

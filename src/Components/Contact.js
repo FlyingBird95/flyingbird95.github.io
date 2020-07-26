@@ -2,14 +2,15 @@ import React, {Component} from 'react';
 
 class Contact extends Component {
     render() {
+        let name, city, country, phone, email, message;
 
         if (this.props.data) {
-            var name = this.props.data.name
-            var city = this.props.data.address.city;
-            var country = this.props.data.address.country;
-            var phone = this.props.data.phone;
-            var email = this.props.data.email;
-            var message = this.props.data.contactmessage;
+            name = this.props.data.name
+            city = this.props.data.address.city;
+            country = this.props.data.address.country;
+            phone = this.props.data.phone;
+            email = this.props.data.email;
+            message = this.props.data.c;
         }
 
         return (
