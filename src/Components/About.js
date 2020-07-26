@@ -2,13 +2,12 @@ import React, {Component} from 'react';
 
 class About extends Component {
     render() {
-        let name, profilePic, resumeLink, bio, city, country, phone, email;
+        let name, profilePic, resumeLink, city, country, phone, email;
 
         if (this.props.data) {
             name = this.props.data.name;
             profilePic = "images/" + this.props.data.image;
             resumeLink = this.props.data.resumeLink;
-            bio = this.props.data.bio;
             city = this.props.data.address.city;
             country = this.props.data.address.country;
             phone = this.props.data.phone;
