@@ -3,17 +3,15 @@
     "jobDescription": "Software Engineer",
     "company": "See Tickets Benelux",
     "name":"Patrick Vogel",
-    "employer":"SeeTickets B.V.",
     "image":"about.jpg",
-    "bio":"",
-    "contactmessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+    "resumeLink": "https://github.com/flyingbird95/curriculum-vitae/blob/master/dst/main.pdf?raw=true",
+    "contactMessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "email": "patrickvogel@live.nl",
     "phone": "06-57383738",
     "address":{
       "city":"Groningen",
       "country":"Netherlands"
     },
-    "website": "http://www.patrickvogel.nl",
     "social":[
       {
         "name":"facebook",
@@ -43,7 +41,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
+    "skillMessage":"I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
     "education":[
       {
         "school":"University of Groningen",
@@ -60,7 +58,7 @@
     ],
     "work":[
       {
-        "company":"SeeTickets B.V.",
+        "company":"See Tickets Benelux",
         "title": "Python Backend Software Engineer",
         "years": "September 2019 - Present",
         "description": "Currently, I'm a Software Engineer at See Tickets Benelux. They are one of the leaders in the global ticketing market, with a strong presence in the United States and Europe. My work consists of maintaining the Python Platform. This platform uses frameworks like Django, Flask and SQLAlchemy. The focus of their platform is code quality, which is supported by exhausting testing implemented by specialized test-frameworks."
@@ -90,7 +88,7 @@
 
       {
         "name":"Pytest Factory Boy",
-        "description":"I had the opportunity to learn Pytest Factory Boy via SeeTickets B.V. It is an easy and powerful test framework that makes test driven design easy, as it works fluently with database models.",
+        "description":"I had the opportunity to learn Pytest Factory Boy via See Tickets Benelux. It is an easy and powerful test framework that makes test driven design easy, as it works fluently with database models.",
         "image":"pytest.png"
       },
       {
