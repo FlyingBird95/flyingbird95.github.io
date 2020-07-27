@@ -2,13 +2,12 @@ import React, {Component} from 'react';
 
 class Contact extends Component {
     render() {
-        let name, city, country, phone, email, message;
+        let name, city, country, email, message;
 
         if (this.props.data) {
             name = this.props.data.name
             city = this.props.data.address.city;
             country = this.props.data.address.country;
-            phone = this.props.data.phone;
             email = this.props.data.email;
             message = this.props.data.c;
         }
@@ -51,12 +50,11 @@ class Contact extends Component {
 
                     <aside className="four columns footer-widgets">
                         <div className="widget widget_contact">
-                            <h4>Address and Phone</h4>
+                            <h4>Address and email</h4>
                             <p className="address">
                                 <span>{name}</span><br/>
                                 <span>{city}</span><br/>
                                 <span>{country}</span><br/>
-                                <span>{phone}</span><br/>
                                 <span><a href="mailto:patrickvogel@live.nl">{email}</a></span>
                             </p>
                         </div>
