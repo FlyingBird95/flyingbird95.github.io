@@ -37,10 +37,8 @@ class Header extends Component {
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm {name}</h1>
-                        <h3>I am a professional <span>{jobDescription}</span> working at <span>{company}</span>
-                            in <span>{city}</span>. I'm specialized in <span>Python web-development</span>,
-                            and an expert in <span>Django and Flask</span>, for which I've developed the
-                            <span>Flask-Monitoring-Dashboard</span>. Currently, I'm still the maintainer of this
+                        <h3>I am a professional <span>{jobDescription}</span> working at <span>{company}</span> in <span>{city}</span>. I'm specialized in <span>Python web-development</span>,
+                            and an expert in <span>Django and Flask</span>, for which I've developed the <span>Flask-Monitoring-Dashboard</span>. Currently, I'm still the maintainer of this
                             repository, and continuously adding new features.</h3>
                         <hr/>
                         <ul className="social">

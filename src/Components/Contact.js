@@ -31,16 +31,16 @@ class Contact extends Component {
                                 <div>
                                     <label htmlFor="name">Name <span className="required">*</span></label>
                                     <input type="text" defaultValue="" size="35" id="name" name="name"
-                                           onChange={this.handleChange}/>
+                                           onChange={this.handleChange} required/>
                                 </div>
                                 <div>
                                     <label htmlFor="email">Email <span className="required">*</span></label>
                                     <input type="email" size="35" id="email" name="_replyto"
-                                           onChange={this.handleChange}/>
+                                           onChange={this.handleChange} required/>
                                 </div>
                                 <div>
                                     <label htmlFor="message">Message <span className="required">*</span></label>
-                                    <textarea cols="50" rows="15" id="message" name="message"></textarea>
+                                    <textarea cols="50" rows="15" id="message" name="message" required></textarea>
                                 </div>
                                 <div>
                                     <button className="submit" value="Send">Submit</button>
