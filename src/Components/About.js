@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class About extends Component {
     render() {
-        let name, profilePic, resumeLink, city, country, email;
+        let name, profilePic, resumeLink, city, country;
 
         if (this.props.data) {
             name = this.props.data.name;
@@ -10,7 +10,6 @@ class About extends Component {
             resumeLink = this.props.data.resumeLink;
             city = this.props.data.address.city;
             country = this.props.data.address.country;
-            email = this.props.data.email;
         }
 
         return (
@@ -27,7 +26,6 @@ class About extends Component {
                                     <span>{name}</span><br/>
                                     <span>{city}</span><br/>
                                     <span>{country}</span><br/>
-                                    <span><a href="mailto:patrickvogel@live.nl">{email}</a></span>
                                 </p>
                             </div>
                             <div className="columns download">
