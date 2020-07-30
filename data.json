@@ -6,7 +6,6 @@
     "image":"about.jpg",
     "resumeLink": "https://github.com/flyingbird95/curriculum-vitae/blob/master/dst/main.pdf?raw=true",
     "contactMessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
-    "email": "patrickvogel@live.nl",
     "address":{
       "city":"Groningen",
       "country":"Netherlands"
@@ -31,11 +30,6 @@
         "name":"github",
         "url":"http://github.com/flyingbird95",
         "className":"fa fa-github"
-      },
-      {
-        "name":"email",
-        "url":"mailto:patrickvogel@live.nl",
-        "className":"fa fa-envelope"
       }
     ]
   },
